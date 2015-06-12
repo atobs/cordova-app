@@ -1,12 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.hellocordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloCordova</name>
+<widget id="xyz.atob" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>atob</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        an atob app for those who are addicted to JAMES
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="goaway@dontbother.me" href="http://atob.xyz">
+        atob team
     </author>
+
     <content src="index.html" />
     <access origin="*" />
+
+    <icon src="res/icon.png" />
+    <icon src="res/icon.png" platform="android" density="ldpi" />
+    <icon src="res/icon.png" platform="android" density="mdpi" />
+    <icon src="res/icon.png" platform="android" density="hdpi" />
+    <icon src="res/icon.png" platform="android" density="xhdpi" />
+
+
 </widget>

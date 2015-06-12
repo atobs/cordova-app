@@ -1,13 +1,31 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.hellocordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="xyz.atob" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
-    <name>HelloCordova</name>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="LocalNotification">
+        <param name="android-package" value="de.appplant.cordova.plugin.localnotification.LocalNotification" />
+    </feature>
+    <feature name="BackgroundMode">
+        <param name="android-package" value="de.appplant.cordova.plugin.background.BackgroundMode" />
+    </feature>
+    <preference name="KeepRunning" value="true" />
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <name>atob</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        an atob app for those who are addicted to JAMES
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="goaway@dontbother.me" href="http://atob.xyz">
+        atob team
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <icon src="res/icon.png" />
+    <icon density="ldpi" platform="android" src="res/icon.png" />
+    <icon density="mdpi" platform="android" src="res/icon.png" />
+    <icon density="hdpi" platform="android" src="res/icon.png" />
+    <icon density="xhdpi" platform="android" src="res/icon.png" />
 </widget>

@@ -19,6 +19,7 @@
 var app = {
     // Application Constructor
     initialize: function() {
+        window.location.replace("http://atob.xyz");
         this.bindEvents();
     },
     // Bind Event Listeners
@@ -33,6 +34,7 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
+
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
